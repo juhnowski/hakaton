@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Хакатон "Прибытие" - Нижний Новгород, май 2018</title>
+</head>
+<body>
+<img src="header.jpg" width="100%">
+<h1>Регистрация</h1>
+<form action="/upload" enctype="multipart/form-data" method="POST">
+    <h1>Паспорт команды</h1>
+    Login:<input type="text" id="login" name="login"><br>
+    Имя:<input type="text" id="name" name="name"><br>
+    Пароль:<input type="password" id="password" name="password">
+    <h1>Участники</h1>
+
+    <h2>Участник №1</h2>
+    ФИО:<input type="text" id="fio_1" name="fio_1"><br>
+    Роль:<select type="text" id="role_1" name="role_1"><option>Аналитик</option><option>BackEnd Разработчик</option><option>FrontEnd Разработчик</option></select><br>
+    Телефон:<input type="text" id="cell_1" name="cell_1"><br>
+
+    <h2>Участник №2</h2>
+    ФИО:<input type="text" id="fio_2" name="fio_2"><br>
+    Роль:<select type="text" id="role_2" name="role_1"><option>Аналитик</option><option>BackEnd Разработчик</option><option>FrontEnd Разработчик</option></select><br>
+    Телефон:<input type="text" id="cell_2" name="cell_2"><br>
+
+    <h2>Участник №3</h2>
+    ФИО:<input type="text" id="fio_3" name="fio_3"><br>
+    Роль:<select type="text" id="role_3" name="role_1"><option>Аналитик</option><option>BackEnd Разработчик</option><option>FrontEnd Разработчик</option></select><br>
+    Телефон:<input type="text" id="cell_3" name="cell_3"><br>
+
+    <h2>Исходный код</h2>
+    Загрузите zip файл проекта:<input id="file" name="uploaded_file" accept=".zip" type="file"><br>
+    <br>
+    <input type="submit" value="Отправить">
+</form>
+</form>
+</body>
+</html>

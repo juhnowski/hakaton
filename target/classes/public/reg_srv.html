@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Хакатон "Прибытие" - Нижний Новгород, май 2018</title>
+</head>
+<body>
+<img src="header.jpg" width="100%">
+<h1>Регистрация сервиса</h1>
+<form action="/reg_srv" method="POST">
+    <h1>Добавить сервис</h1>
+    Назначение:<input type="text" id="purpose" name="purpose"><br>
+    Метод:<select type="text" id="method" name="method"><option>GET</option><option>POST</option><option>PUT</option><option>DELETE</option></select><br>
+    RequestURL:<input type="text" id="url" name="url"><br>
+    JSON Raw Body:<input type="text" id="body" name="body"><br>
+    Description:<textarea type="text" id="description" name="description"></textarea><br>
+    <br>
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
