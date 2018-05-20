@@ -14,13 +14,17 @@
 </head>
 <body>
 <img src="header.jpg" width="100%">
-<h1>Удаление сервиса</h1>
-<form action="/del_srv" method="POST">
-    <h1>Добавить сервис</h1>
+<h1>Регистрация</h1>
+<form action="/upload" enctype="multipart/form-data" method="POST">
+    <h1>Паспорт команды</h1>
     Login:<input type="text" id="login" name="login"><br>
-    Пароль:<input type="password" id="password" name="password"><br>
-    Сервис id:<input type="text" id="id" name="id"><br>
-    <input type="submit" value="Удалить">
+    Пароль:<input type="password" id="password" name="password">
+
+    <h2>Исходный код</h2>
+    Загрузите zip файл проекта:<input id="file" name="uploaded_file" accept=".zip" type="file"><br>
+    <br>
+    <input type="submit" value="Отправить">
+</form>
 </form>
 </body>
 </html>
