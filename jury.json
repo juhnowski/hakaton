@@ -1,1 +1,10 @@
-{"list":[{"fio":"eqwweq","role":"Аналитик","phone":"qweqweqweq"},{"fio":"qeqwewee qweqw qeweeeeeeee","role":"BackEnd Разработчик","phone":"eeeeeeeeeeeee"},{"fio":"eeeeeeeeeeee rrrrrrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrrrrrr","role":"FrontEnd Разработчик","phone":"eeeeeeeeeeeeeeeeeee"}]},{"login":"ilya","name":"Ilya Juhnowski","password":"1","persons":[{"fio":"Ilya Juhnowski","role":"Аналитик","phone":"+79027800807"},{"fio":"","role":"Аналитик","phone":""},{"fio":"","role":"Аналитик","phone":""}]},{"login":"admin","name":"Тест","password":"admin","persons":[{"fio":"Иван Иваныч Иванов","role":"BackEnd Разработчик","phone":"123456789"}]}
+{"list":[
+{"fio":"Кульманбетова Марина Раудатовна","role":"Productowner","phone":"+7(000)000-00-00"},
+{"fio":"Лосев Илья Сталиевич","role":"Директор трайба Digital CIB (Сбербанк)","phone":"+7(000)000-00-00"},
+{"fio":"Штаба Григорий Петрович","role":"Главный аналитик трайба Digital CIB (Сбербанк)","phone":"+7(000)000-00-00"},
+{"fio":"Юхновский Илья Александрович","role":"Руководитель направления Digital CIB (Сбербанк)","phone":"+7(000)000-00-00"},
+{"fio":"Ширяев Михаил Виссарионович","role":"Первый Проректор НГТУ","phone":"+7(000)000-00-00"},
+{"fio":"Митяков Сергей Николаевич","role":"д.ф.-м.н., профессор, директор ИнЭУ","phone":"+7(000)000-00-00"},
+{"fio":"Мурашова Наталья Александровна","role":"зам. директора ИнЭУ, к.т.н, доцент","phone":"+7(000)000-00-00"},
+{"fio":"Юхновский Иван Александрович","role":"Аналитик трайба Digital CIB (Сбербанк)","phone":"+7(000)000-00-00"}
+]}

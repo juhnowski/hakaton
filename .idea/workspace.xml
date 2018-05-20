@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b61bf61-77bb-4017-b9b4-ab86ea95c6bf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/JuryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jury.json" beforeDir="false" afterPath="$PROJECT_DIR$/jury.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/del_srv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/del_srv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/reg_cmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/reg_cmd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/reg_srv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/reg_srv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/upload.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +24,8 @@
           <file leaf-file-name="reg_cmd.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/public/reg_cmd.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+                <state relative-caret-position="431">
+                  <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
                 </state>
               </provider>
             </entry>
@@ -53,41 +54,29 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Ok.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Ok.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Service.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="reg_srv.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/public/reg_srv.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="442">
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                  <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Team.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Team.java">
+          <file leaf-file-name="upload.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/public/upload.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="425">
+                  <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="del_srv.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/public/del_srv.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="74" />
                 </state>
               </provider>
             </entry>
@@ -97,6 +86,15 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
                   <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="stat.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/public/stat.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -113,11 +111,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -189,22 +187,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/public/del_srv.html" />
         <option value="$PROJECT_DIR$/src/main/resources/public/stat.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Person.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/uload.html" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Ok.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/reg_srv.html" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Team.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/reg_cmd.html" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/TeamList.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/ServiceList.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/AuthList.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/JuryList.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/del_srv.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/reg_cmd.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/reg_srv.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/upload.html" />
       </list>
     </option>
   </component>
@@ -415,12 +414,12 @@
       <updated>1526652431363</updated>
       <workItem from="1526672808888" duration="9677000" />
       <workItem from="1526737446987" duration="1244000" />
-      <workItem from="1526777357717" duration="25697000" />
+      <workItem from="1526777357717" duration="28008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36618000" />
+    <option name="totallyTimeSpent" value="38929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -435,12 +434,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.075520836" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31151003" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31151003" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15520833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15520833" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -695,24 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/del_srv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/stat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" lean-forward="true" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -737,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -758,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/reg_srv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -772,13 +743,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/reg_cmd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -841,8 +805,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="408">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/del_srv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/reg_cmd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/reg_srv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/stat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
