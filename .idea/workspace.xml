@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b61bf61-77bb-4017-b9b4-ab86ea95c6bf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/AuthList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Ok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/ServiceList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/TeamList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/JuryList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrival.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arrival.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/del_srv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/del_srv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/reg_cmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/reg_cmd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/reg_srv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/reg_srv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/stat.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/stat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/reg_cmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/reg_cmd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/reg_srv.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/reg_srv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/sberbank/hackathon/arrival/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/sberbank/hackathon/arrival/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +32,8 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="901">
-                  <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+                <state relative-caret-position="2399">
+                  <caret line="205" column="67" lean-forward="true" selection-start-line="205" selection-start-column="67" selection-end-line="205" selection-end-column="67" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -63,8 +44,11 @@
           <file leaf-file-name="AuthList.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/AuthList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
+                <state relative-caret-position="119">
                   <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -108,7 +92,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Person.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
@@ -117,11 +101,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="JuryList.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/JuryList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -202,11 +198,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Ok.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/reg_srv.html" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Team.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/public/reg_cmd.html" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/TeamList.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/ServiceList.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/AuthList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/JuryList.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java" />
       </list>
     </option>
@@ -240,7 +237,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="37" />
     <option name="y" value="16" />
     <option name="width" value="909" />
@@ -418,12 +415,12 @@
       <updated>1526652431363</updated>
       <workItem from="1526672808888" duration="9677000" />
       <workItem from="1526737446987" duration="1244000" />
-      <workItem from="1526777357717" duration="25009000" />
+      <workItem from="1526777357717" duration="25697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35930000" />
+    <option name="totallyTimeSpent" value="36618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -778,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/reg_cmd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -812,27 +802,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/AuthList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/JuryList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/AuthList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="119">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sberbank/hackathon/arrival/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2399">
+          <caret line="205" column="67" lean-forward="true" selection-start-line="205" selection-start-column="67" selection-end-line="205" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>

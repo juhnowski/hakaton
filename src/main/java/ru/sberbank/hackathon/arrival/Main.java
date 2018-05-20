@@ -20,6 +20,7 @@ public class Main {
     public static AuthList authList = new AuthList();
     public static TeamList teamList = new TeamList();
     public static ServiceList serviceList = new ServiceList();
+    public static JuryList juryList = new JuryList();
 
     public static void main(String[] args) {
         port(PORT);
@@ -44,6 +45,20 @@ public class Main {
             sb.append("<table>");
 
             return Ok.getPage("СПИСОК СЕРВИСОВ",sb.toString());
+        });
+
+        get("/all_jury", (req, res) ->{
+            StringBuilder sb = new StringBuilder();
+
+                sb.append("<td><table width=\"100%\" border=\"1\"><tr><th>ФИО</th><th>Роль</th><th>Телефон</th></tr>");
+                for(Person p: juryList.list) {
+                    sb.append("<tr><td>").append(p.fio).append("</td>");
+                    sb.append("<td>").append(p.role).append("</td>");
+                    sb.append("<td>").append(p.phone).append("</td></tr>");
+                }
+                sb.append("</table></td></tr>");
+
+            return Ok.getPage("ЧЛЕНЫ ЖЮРИ",sb.toString());
         });
 
         get("/all_cmd", (req, res) ->{
@@ -188,6 +203,7 @@ public class Main {
         ObjectMapper mapper = new ObjectMapper();
 
         try {
+            juryList = mapper.readValue(new File("jury.json"), JuryList.class);
             authList = mapper.readValue(new File("auth.json"), AuthList.class);
             teamList = mapper.readValue(new File("team.json"), TeamList.class);
             serviceList = mapper.readValue(new File("service.json"), ServiceList.class);
